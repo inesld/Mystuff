@@ -1,0 +1,165 @@
+<html>
+  <head>
+    <title>HTML Checkpoint 1</title>
+    <link rel="icon" href="html-5.png" type="image/x-icon" />
+    <style> h3{color: mediumturquoise; font-family: Arial, Helvetica, sans-serif;} </style>
+    <link rel="stylesheet" href="stylesheet1.css" />
+  </head>
+  <body>
+    <header>
+      <article>
+        <h1 style="color: blue;">Hello and welcome to my first HTML checkpoint web page</h1>
+        <p>
+          My name is Skander Jradi. As you can see, i'm currently styding to
+          become a fullstck JS web developer. For example, right now i'm trying
+          to write as much as possible<br />
+          so i can i include the article,paragraph and BR tags in my code page.
+          I'm also supposed to use police tags so
+          <i>there you go, see, it's italic !</i>,<b
+            >and now it's bold ! no way !</b
+          >
+          <br />Anyway, right below is my rookie navtab but at least i used
+          square pins instead of the standard ones bacause i can, enjoy !
+        </p>
+      </article>
+      <nav>
+        <ul>
+          <!--check internal links off my bucket list-->
+          <li type="square"><a href="#Home">Home</a></li>
+          <li type="square"><a href="#About">About</a></li>
+          <li type="square"><a href="#Work">Work</a></li>
+          <li type="square"><a href="#Resume">Resume</a></li>
+          <li type="square"><a href="#Contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!--for each section tag, you will find the "name" attribute to indicate 
+            wich part of the nav bar we're working on-->
+      <section name="Home">
+        <div>
+          <h3>Home</h3>
+          <a name="Home"> </a>
+        </div>
+        <article>
+          <p>
+            Hello again! good to have you Here. First of all, help youself with
+            some music.
+          </p>
+        </article>
+        <!--check the audio part off my bucket list-->
+        <audio controls><source src="jazz.mp3" type="audio/mpeg" /></audio>
+        <article>
+          <p>
+            Ow, and before i forget, meet the one responsible for this beauty of
+            a page.
+          </p>
+        </article>
+        <!--check the image part off my bucket list-->
+        <div><img src="myface.PNG" alt="my picture" /></div>
+        <article><h4>Mirror, mirror on the whall am i right ? 8)</h4></article>
+      </section>
+      <section name="About">
+        <div>
+          <h3>About</h3>
+          <a name="About"> </a>
+        </div>
+        <article>
+          <p>
+            Long story short, i am currently an accountant. if by any chance you
+            want to check out my cv,
+            <a href="Resume Skander Jradi.pdf">there you go.</a> And shout out
+            to <a href="https://gomycode.com/tn/fr/">GoMyCode</a> where i
+            learned how to do this.
+          </p>
+        </article>
+        <!--Now my teacher can't say i didn't use links,or comments (just kidding :3)-->
+      </section>
+      <section name="Work">
+        <div>
+          <a name="Work"> </a>
+          <h3>Work</h3>
+        </div>
+        <article>
+          <p>
+            I'm not entirely sure about this part, I'm still a newbie, so cut me
+            some slack. Instead, here's a random youtube video about food
+            without a context because it's not copywrited.
+          </p>
+        </article>
+        <div>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/yezpvLy6eRM?si=HrbBPDdH_DS_AeJQ"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <!--check the video part off my bucket list-->
+      </section>
+      <section name="Resume">
+        <div>
+          <h3>Resume</h3>
+          <a name="Resume"> </a>
+        </div>
+        <article>
+          <p>
+            First of all, i'm runung out of time to finish this task in due
+            time. <br />Ow wait silly me, i already linked you my resume in the
+            about section.
+          </p>
+        </article>
+      </section>
+      <section name="Contact">
+        <div>
+          <h3>Contact</h3>
+          <a name="Contact"> </a>
+        </div>
+        <article>
+          <p>
+            I'm officially late on my course, just type "Skander Jradi" on any
+            social media.
+          </p>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <br /><br /><br />
+      <article>
+        <p>
+          Hey, it's me again, i'm just writing this to let you know that i did
+          include a footer in this page. and one last think, no web page should
+          exist without a form.
+        </p>
+      </article>
+      <form>
+        <label>Name:</label>
+        <input
+          type="text"
+          name="first name"
+          placeholder="Type your name here"
+        />
+        <br />
+
+        <label>Number:</label>
+        <input type="number" name="number" value="23123456" />
+        <br />
+
+        <label>Birth Date:</label>
+        <input type="date" name="birthday" />
+        <br />
+
+        <label>Password:</label>
+        <input type="password" name="password" />
+        <br />
+
+        <input type="submit" value="Submit" />
+      </form>
+      <!--check the form part off my bucket list-->
+    </footer>
+  </body>
+</html>
